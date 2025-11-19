@@ -17,6 +17,8 @@ public class StudentRead {
             }
         } catch (SQLException e) {
             System.out.println("Error reading students: " + e.getMessage());
+            System.out.println("Error reading students: " + e.getMessage());
         }
     }
 }
+
